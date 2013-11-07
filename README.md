@@ -12,3 +12,7 @@ Core Data iCloud Sync became and order of magnitude easier to implement in iOS 7
 Still, even having seen the WWDC session video a number of times and having read a lot of Dev Forum posts, it's not immediately apparent exactly how straightforward implementing Core Data iCloud Sync has become with iOS 7. I created iCloudCoreDataStack to show just how simple it really is, and how little extra code is required above and beyond a regular Core Data implementation.
 
 You no longer need to know whether the user is using iCloud or not, or even has an iCloud account on their device. Core Data now transparently handles creating a local store for you in those situations. The only additions to the stack for using iCloud are passing the `NSPersistentStoreUbiquitousContentNameKey` key when adding the persistent store and subscribing to the 3 persistent store notifications. That's it. Core Data iCloud Sync just got a whole lot easier with iOS 7!
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mluisbrown/icloudcoredatastack/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
